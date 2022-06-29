@@ -3,6 +3,7 @@ const orangeBtn = document.querySelector(".orange-btn");
 const cyanBtn = document.querySelector(".cyan-btn");
 const display = document.querySelector(".text-body");
 const buttons = Array.from(document.getElementsByClassName("buttons"));
+const multiply = document.querySelector(".multiply");
 
 redBtn.addEventListener("click", () => {
   document.body.classList.add("red-theme");
@@ -40,6 +41,11 @@ buttons.map((button) => {
       case "DEL":
         if (display.innerText) {
           display.innerText = display.innerText.slice(0, -1);
+        }
+        break;
+      case "x":
+        if (multiply.innerText == "x") {
+          display.innerText += "*";
         }
         break;
       case "=":
