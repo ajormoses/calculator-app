@@ -1,0 +1,81 @@
+:root {
+  --main-background: hsl(222, 26%, 31%);
+  --header-txt: white;
+  --theme-toggle-background: hsl(223, 31%, 20%);
+  --theme-red-btn: hsl(6, 63%, 50%);
+  --text-body: hsl(224, 36%, 15%);
+  --main-bg-btn: hsl(223, 31%, 20%);
+  --main-btn-bg: hsl(30, 25%, 89%);
+  --main-btn-bg-boxShadow: hsl(28, 16%, 65%);
+  --main-btn-color: hsl(221, 14%, 31%);
+  --del-background: hsl(225, 21%, 49%);
+  --del-boxShadow: hsl(224, 28%, 35%);
+  --del-color: white;
+  --reset-background: hsl(225, 21%, 49%);
+  --reset-boxShadow: hsl(224, 28%, 35%);
+  --reset-color: white;
+  --equalto-background: hsl(6, 63%, 50%);
+  --equalto-boxShadow: hsl(6, 70%, 34%);
+  --equalto-color: white;
+}
+
+.red-theme {
+  --main-background: hsl(222, 26%, 31%);
+  --header-txt: white;
+  --theme-toggle-background: hsl(223, 31%, 20%);
+  --theme-red-btn: hsl(6, 63%, 50%);
+  --text-body: hsl(224, 36%, 15%);
+  --main-bg-btn: hsl(223, 31%, 20%);
+  --main-btn-bg: hsl(30, 25%, 89%);
+  --main-btn-bg-boxShadow: hsl(28, 16%, 65%);
+  --main-btn-color: hsl(221, 14%, 31%);
+  --del-background: hsl(225, 21%, 49%);
+  --del-boxShadow: hsl(224, 28%, 35%);
+  --del-color: white;
+  --reset-background: hsl(225, 21%, 49%);
+  --reset-boxShadow: hsl(224, 28%, 35%);
+  --reset-color: white;
+  --equalto-background: hsl(6, 63%, 50%);
+  --equalto-boxShadow: hsl(6, 70%, 34%);
+  --equalto-color: white;
+}
+
+.orange-theme {
+  --main-background: hsl(0, 0%, 90%);
+  --header-txt: hsl(60, 10%, 19%);
+  --theme-toggle-background: hsl(0, 5%, 81%);
+  --text-body: hsl(0, 0%, 93%);
+  --main-bg-btn: hsl(0, 5%, 81%);
+  --main-btn-bg: hsl(45, 7%, 89%);
+  --main-btn-bg-boxShadow: hsl(35, 11%, 61%);
+  --main-btn-color: hsl(60, 10%, 19%);
+  --del-background: hsl(185, 42%, 37%);
+  --del-boxShadow: hsl(185, 58%, 25%);
+  --del-color: white;
+  --reset-background: hsl(185, 42%, 37%);
+  --reset-boxShadow: hsl(185, 58%, 25%);
+  --reset-color: white;
+  --equalto-background: hsl(25, 98%, 40%);
+  --equalto-boxShadow: hsl(25, 99%, 27%);
+  --equalto-color: white;
+}
+
+.cyan-theme {
+  --main-background: hsl(268, 75%, 9%);
+  --header-txt: hsl(52, 100%, 62%);
+  --theme-toggle-background: hsl(268, 71%, 12%);
+  --text-body: hsl(268, 71%, 12%);
+  --main-bg-btn: hsl(268, 71%, 12%);
+  --main-btn-bg: hsl(268, 47%, 21%);
+  --main-btn-bg-boxShadow: hsl(290, 70%, 36%);
+  --main-btn-color: hsl(52, 100%, 62%);
+  --del-background: hsl(281, 89%, 26%);
+  --del-boxShadow: hsl(285, 91%, 52%);
+  --del-color: white;
+  --reset-background: hsl(281, 89%, 26%);
+  --reset-boxShadow: hsl(285, 91%, 52%);
+  --reset-color: white;
+  --equalto-background: hsl(176, 100%, 44%);
+  --equalto-boxShadow: hsl(177, 92%, 70%);
+  --equalto-color: hsl(198, 20%, 13%);
+}

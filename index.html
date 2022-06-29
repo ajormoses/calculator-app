@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <div class="calculator-content">
+          <div class="calculator-content-header">
+            <div class="calculator-content-header-name">
+              <h1>calc</h1>
+            </div>
+            <div class="calculator-content-header-theme">
+              <p>THEME</p>
+              <div class="toggle">
+                <div class="toggle-list">
+                  <button>1</button>
+                  <button>2</button>
+                  <button>3</button>
+                </div>
+                <div class="toggle-btn">
+                  <button class="red-btn" id="btn"></button>
+                  <button class="orange-btn" id="btn"></button>
+                  <button class="cyan-btn" id="btn"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calculator-content-text-body">
+            <div class="text-body"></div>
+          </div>
+          <div class="calculator-content-main-body">
+            <div class="first-column main-btn">
+              <button class="buttons">7</button>
+              <button class="buttons">8</button>
+              <button class="buttons">9</button>
+              <button class="del buttons">DEL</button>
+            </div>
+            <div class="second-column main-btn">
+              <button class="buttons">4</button>
+              <button class="buttons">5</button>
+              <button class="buttons">6</button>
+              <button class="buttons">+</button>
+            </div>
+            <div class="third-column main-btn">
+              <button class="buttons">1</button>
+              <button class="buttons">2</button>
+              <button class="buttons">3</button>
+              <button class="buttons">-</button>
+            </div>
+            <div class="fourth-column main-btn">
+              <button class="buttons">.</button>
+              <button class="buttons">0</button>
+              <button class="buttons">/</button>
+              <button class="buttons">x</button>
+            </div>
+            <div class="fifth-column last-main-btn">
+              <button class="reset buttons">RESET</button>
+              <button class="equal-to buttons">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/ajormoses">AJOR MOSES</a>.
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
