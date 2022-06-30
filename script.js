@@ -50,9 +50,13 @@ buttons.map((button) => {
         break;
       case "=":
         try {
-          display.innerText = eval(display.innerText);
+          if ((display.innerText = eval(display.innerText))) {
+            display.innerText;
+          } else {
+            display.innerText = "";
+          }
         } catch {
-          display.innerHTML = "";
+          display.innerHTML = "Error!";
         }
         break;
       default:
